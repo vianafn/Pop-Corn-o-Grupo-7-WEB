@@ -1,0 +1,36 @@
+/*CSS*/
+#menu ul {width:100%; padding-left:6%; margin:0%; background-color:#EDEDED; list-style:none;}
+#menu ul li { display: inline; align-items: center;}
+#menu ul li a { padding: 1% 3%; display: inline-block; background-color:#EDEDED; color: #333; text-decoration: none; border-bottom:2% solid #EDEDED;}
+#menu ul li a:hover { background-color:#D6D6D6; color: #6D6D6D; border-bottom:2% solid black;}
+
+body { margin:0; padding:0; color:#000; background:#fff;}
+#pacotes { width:80%; margin:0 auto; background:rgb(238, 174, 174); padding-top: 5%}
+
+#pct1 { float:left; width:33%}
+#pct2 { float: right; width:66%}
+#pct3 {float:left; width: 50%}
+#pct4 {float:right; width:50%}
+
+/* Header */
+.container {
+    width: 90%;
+    height: 15%;
+	margin: 0 auto;
+	display: flex;
+
+}
+
+
+
+.row {
+	flex-direction: row;
+}
+
+.item {
+	flex: 1;
+    margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.item h1 {font-size: 1em}
