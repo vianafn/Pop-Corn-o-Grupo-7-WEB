@@ -5,49 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="main.js"></script>
-    
-    <style>
-    
-    #menu ul {padding:0px; margin:0px; background-color:#EDEDED; list-style:none;}
-    #menu ul li { display: inline; align-items: center;}
-    #menu ul li a { padding: 2px 10px; display: inline-block; background-color:#EDEDED; color: #333; text-decoration: none; border-bottom:3px solid #EDEDED;}
-    #menu ul li a:hover { background-color:#D6D6D6; color: #6D6D6D; border-bottom:3px solid black;}
-
-    body { margin:0; padding:0; color:#000; background:#fff;}
-    #pacotes { width:80%; margin:0 auto; background:#ddd;}
-
-    #pct1 { float:left; width:33%;}
-    #pct2 { float: right; width:66%;}
-    #pct3 {float:left; width: 50%}
-    #pct4 {float:right; width:50%}
-
-</style>
 
 </head>
+<header >
+        <section class="container row">
+            <div class="item">
+                <picture>
+                    Logo
+                </picture>
+            </div>
+
+            <div class="item"><h1>POP CORN'O</h1>
+            </div>
+
+            <div class="item">
+                <p></p>
+            </div>
+        </section>
+
+        <br>
+</header> 
+
+        <section id="menu" class="container row">
+                <ul class="item">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Nossos Produtos</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Casos</a></li>
+                    <li><a href="#">Baixar</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </section>
+    
+   
 <body>
-
-    <header>POP CORN'O</header>
-
-    <nav id="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Nossos Produtos</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Casos</a></li>
-                <li><a href="#">Baixar</a></li>
-                <li><a href="#">Fale Conosco</a></li>
-            </ul>
-        </nav>
-
+    
+    
     <div id="pacotes">
-        <div id="pct1"; align = "center">Porra</div>
+        <div id="pct1"; align = "center"><h1>Carai</h1><p>Mano, varios texto vai se fude</p></div>
         <div id="pct2">
-                <div id="pct3"; align = "center">Cu</div>
-                <div id="pct4"; align = "center">Caralho</div>
+                <div id="pct3"; align = "center"><h1>CU</h1><p>Mano, varios texto vai se fude</p></div>
+                <div id="pct4"; align = "center"><h1>Cunheta</h1><p>Mano, varios texto vai se fude</p></div>
         </div>
-        
     </div>
     
 </body>
