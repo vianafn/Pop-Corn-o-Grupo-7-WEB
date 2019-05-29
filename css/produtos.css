@@ -1,7 +1,7 @@
 /*Pacotes*/
-#pacotes {text-align: center; width:80%; margin:0 auto; background:rgb(255, 243, 209); padding-top: 5%}
+.pacotes {text-align: center; width:80%; margin:0 auto; background:rgb(255, 243, 209); padding-top: 5%}
 
-#pct1 {float:left; width:33%;background-color: rgb(255, 243, 209)}
-#pct2 {float: right; width:66%;background-color: rgb(255, 243, 209)}
-#pct3 {float:left; width: 50%;background-color: rgb(255, 243, 209)}
-#pct4 {float:right; width:50%;background-color: rgb(255, 243, 209)}
+#pct1 {float:left; width:33%;}
+#pct2 {float: right; width:66%;}
+#pct3 {float:left; width: 50%;}
+#pct4 {float:right; width:50%;}
