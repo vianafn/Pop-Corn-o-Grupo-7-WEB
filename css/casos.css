@@ -1,0 +1,6 @@
+.casos {text-align: center; width:80%; margin:0 auto; background:rgb(255, 243, 209); padding-top: 5%}
+
+#caso1 {float:left; width:33%; font-size: 150%;}
+#caso2 {float: right; width:66%;  font-size: 150%;}
+#caso3 {float:left; width: 50%; font-size: 98%,}
+#caso4 {float:right; width:48%;  font-size: 98%;}
