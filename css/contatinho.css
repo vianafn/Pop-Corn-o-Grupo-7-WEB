@@ -1,1 +1,9 @@
-#contato{text-align: center; font-size: 150%;}
+#contato{text-align: center; font-size: 150%; padding: 1% 24% 1% 24%; margin: 2%; border: 2%}
+form{
+    background-color:  rgb(241, 230, 198); width: 100%;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
