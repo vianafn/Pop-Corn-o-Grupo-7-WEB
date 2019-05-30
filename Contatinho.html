@@ -55,15 +55,15 @@
    <div id="contato"> 
     <form name=Contato action="Enviado.html">         
     <label for="nome">Nome:</label><br>
-    <input type="text" name="name" size="50">
+    <input type="text" name="name" placeholder="Insira seu nome aqui" size="50">
     <br><br>
 
     <label for="email">E-mail:</label><br>
-    <input type="text" name="mail"  size="50">
+    <input type="email" value="" placeholder="nome@email.com" required size = 50>
     <br><br>
 
     <label for="msg">Mensagem:</label><br>
-    <TEXTAREA cols="52" rows="10" name="seucomentário"></TEXTAREA>
+    <TEXTAREA cols="52" rows="10" placeholder="Escreva seu comentário/mensagem para nós." name="seucomentário"></TEXTAREA>
     <br><br>
 
     <input type=button onclick="pergunta()" value="Enviar"> 
@@ -74,10 +74,9 @@
 
 <footer>
     <hr>
-   <br><br><br>
+    <br> <br> <br>
 </footer>
 
    </body>
 
 </html>
-
