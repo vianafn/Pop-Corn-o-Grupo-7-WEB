@@ -1,18 +1,17 @@
 /*Pacotes*/
-.pacotes {text-align: center; width:80%; margin:0 auto; background:rgb(255, 243, 209); padding-top: 5%; font-size:18px}
+.conteudo {text-align: center; width:80%; margin:0 auto; background:rgb(255, 243, 209); padding-top: 5%; font-size:18px}
 
-#pct1 {float:left; width:31%; padding: 0% 1% 0% 1%}
-#pct2 {float: right; width:66%;}
-#pct3 {float:left; width: 48%; padding: 0% 1% 0% 1%}
-#pct4 {float:right; width:48%; padding: 0% 1% 0% 1%}
+.conteudo #pct1 {float:left; width:31%; padding: 0% 1% 0% 1%}
+.conteudo #pct3 {float:left; width: 31%; padding: 0% 1% 0% 1%}
+.conteudo #pct4 {float:right; width:31%; padding: 0% 1% 0% 1%}
 
-#E{
+.conteudo #E{
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
     font-style: oblique;
 }
 
-#p{
+.conteudo #p{
     font-size: 22px;
     text-align: justify;
 }
