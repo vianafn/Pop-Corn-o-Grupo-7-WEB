@@ -59,3 +59,11 @@ a:link {
     -moz-border-radius: 100;
     border-radius: 100%;
   }
+
+  #porteira{
+    float:left; width:50%}
+  #blk{float: left;width:50%}
+  #porta{float: right;width:50%}
+  #celular{float:right;width:50%}
+  #blk2{float:right;width:15%}
+  #cel{float:left;width:30%}
