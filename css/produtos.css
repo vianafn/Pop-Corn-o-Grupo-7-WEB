@@ -15,3 +15,10 @@
     font-size: 22px;
     text-align: justify;
 }
+
+/*button links */
+  #fb, #in{
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100%;
+  }

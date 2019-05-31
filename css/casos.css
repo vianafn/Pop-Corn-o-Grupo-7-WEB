@@ -3,3 +3,10 @@
 #caso1 {float:left; width:33%; font-size: 150%;}
 #caso3 {float:left; width:33%; font-size: 150%,}
 #caso4 {float:right; width:33%; font-size: 150%;}
+
+/*button links */
+  #fb, #in{
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100%;
+  }

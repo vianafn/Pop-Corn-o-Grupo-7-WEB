@@ -14,3 +14,10 @@ input:focus, textarea:focus {
     /* Dar um pouco de destaque nos elementos ativos */
     border-color: #000;
 }
+
+/*button links */
+  #fb, #in{
+    -webkit-border-radius: 100;
+    -moz-border-radius: 100;
+    border-radius: 100%;
+  }
